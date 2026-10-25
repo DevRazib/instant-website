@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-details-start{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.contact-details {
+    display: flex;
+    gap: 30px;
+    padding: 10px 0;
+}
+
+/* contact details left css */
+.contact-details-left {
+    background: blue;
+    padding: 20px;
+    width: 50%;
+    color: #ffffff;
+    border-radius: 10px;
+
+    h2 {
+        text-transform: uppercase;
+    }
+}
+.contact-left-para{
+        margin: 20px 0;
+    }
+
+.contact-details-left-address {
+    display: flex;
+    gap: 10px
+}
+
+.address-icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-solid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+/* contact details right css */
+.contact-details-right {
+    background: rgb(237, 237, 245);
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+
+    h2 {
+        text-transform: uppercase;
+        color: rgb(88, 88, 245)
+    }
+
+    p {
+        color: grey;
+        line-height: 1.2;
+        margin: 10px 0;
+    }
+}
+
+.button-area {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.book-button {
+    width: 180px;
+    height: 60px;
+    text-transform: uppercase;
+    background: navy;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+}
